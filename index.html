@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Category Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/zero.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        *{
+            /*border: 1px solid black !important;*/
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="wrapper"> <!-- Wrapper -->
+
+        <div class="imagemodal">
+            <i class="material-icons" onclick="mamank()">close</i>
+            <img src="" class="imagepreview">
+        </div>
+
+        <blockquote class="blockquote bq-primary">
+            <p class="bq-title">Category Manager</p>
+            <p>Created By DanZai / Danis Zaidan on 16 August 2018</p>
+        </blockquote>
+
+        <div class="clearfix">
+            <div class="card">
+                <div class="clearfix" style="margin-bottom: 20px;">
+                    <form id="submit_form" action="ajax/ajax_upload.php" method="post">
+                        <input type="file" name="file" id="image_file" class="inputfile" data-multiple-caption="{count} files selected"/>
+                        <label for="image_file">
+                            <div id="label">
+                                <p>Choose a image file</p>
+                            </div>
+                        </label>
+                        <button type="submit" name="upload_button" class="">upload</button>
+                        <input type="hidden" name="type" id="type" value="upload">
+                    </form>
+                </div>
+                <div class="clearfix">
+                    <div class="col-6 file-preview">
+                        <p>Preview</p>
+                        <div class="file">
+                            <img id="non-image-file" src="img/file.png">
+                            <img id="image-file" src="">
+                        </div>
+                    </div>
+                    <div class="col-6 tag-frame">
+                        <!-- <button id="add_category"><i class="material-icons">add</i></button> -->
+                        <div class="category-list">
+                            <div class="box shadow">
+                                <div class="menu">
+                                    <ul class="ul-menu">
+                                        <li id="add_custom_category">Add...</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tag-form">
+                            <!-- <div class="tags-input" data-name="tags-input">
+                                <span class="tag">HTML<i class="material-icons">close</i></span>
+                            </div> -->
+                            <div id="tag-list">
+
+                                <div class="tag-value" id="vsdvs">
+                                    vsdvs
+                                    <i class="material-icons" id="remove-tag" onclick="removeTag(vsdvs)">close</i>
+                                </div>
+
+                            </div>
+                            <input type="text" id="test">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- End of Wrapper -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/tags.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+Category & Tag
+	Website Type
+		Business & Corporate
+		Ecommerce
+		Event
+		Magazine / Blog
+		Mobile App
+		Portal
+		Portofolio
+		Product
+		Web Service
+	Color
+		Red
+		Orange
+		Purple
+		Magenta
+		Yellow
+		Green
+		Blue
+		Grey
+		White
+		Black
+		Brown
+		Cyan
+		Pink
+		Silver
+	Industry
+		Art
+		Agency
+		Architecture
+		Community
+		Culture
+		Design
+		Education
+		Fashion
+		Food & Drinks
+		Gaming
+		Health
+		Industrial
+		Internet
+		Law
+		Lifestyle
+		Media
+		Medical
+		Misc
+		Movie
+		Music
+		Photography
+		Politics
+		Science
+		Social Media
+		Sport
+		Tech
+		Travel
+		Vehicles
+		Finance
+		Real Estate
+		Animals
+	Styles
+		Animations
+		Big photo
+		Classic
+		Clean
+		Colourfull
+		Creative
+		Dark
+		Experimental
+		Fluent
+		Fun
+		Futuristic
+		Fonts
+		Icons
+		Illustrative
+		Material
+		Minimalist
+		Modern
+		Realistic
+		Retro
+		Flat
+		Photo & Video
+	Layout
+		Video Background
+		Scroll
+		Parallax
+		Single Page
+		About Page
+		Card
+		Contact Page
+		Data Visualization
+		Forms and Input
+		Fullscreen
+		Gallery
+		Header
+		Infinite Scroll
+		Navigation Menu
+		Menu Vertical
+		Project Page
+		Slider
